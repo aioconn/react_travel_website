@@ -31,7 +31,7 @@ const Cards = () => {
                             path='/services'
                         />
                         <CardItem
-                            src="/images/image-4.jpg"
+                            src="./images/image-4.jpg"
                             text="Take in the breath taking views of the Grand Canyon"
                             label="Adventure"
                             path='/services'

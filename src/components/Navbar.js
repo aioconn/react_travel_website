@@ -29,7 +29,7 @@ const MyComponent = () => {
         <>
             <nav className='navbar'>
                 <div className='navbar_container'>
-                    <Link to="/" className="navbar_logo" onClick={closeMobileMenu}>
+                    <Link to="/home" className="navbar_logo" onClick={closeMobileMenu}>
                         XPLOR  <FaPlane/>
                     </Link>
                     <div className='menu_icon' onClick={handleClick}>
@@ -37,7 +37,7 @@ const MyComponent = () => {
                     </div>
                     <ul className={click ? 'nav_menu active' : 'nav_menu'}>
                         <li className='nav_item'>
-                            <Link to='/' className='nav_links' onClick={closeMobileMenu}>
+                            <Link to='/home' className='nav_links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
