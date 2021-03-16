@@ -12,10 +12,10 @@ function App() {
     <Router>
         <Navbar/>
         <Switch>
-            <Route path='aioconn.github.io/react_travel_website/' exact component={Home}/>
-            <Route path='aioconn.github.io/react_travel_website/services' component={Services}/>
-            <Route path='aioconn.github.io/react_travel_website/products' component={Products}/>
-            <Route path='aioconn.github.io/react_travel_website/sign_up' component={SignUp}/>
+            <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}/>
+            <Route path={process.env.PUBLIC_URL + '/services'} component={Services}/>
+            <Route path={process.env.PUBLIC_URL + '/products'} component={Products}/>
+            <Route path={process.env.PUBLIC_URL + '/sign_up'} component={SignUp}/>
 
         </Switch>
     </Router>

@@ -25,20 +25,20 @@ const Footer = () => {
                 <div className="footer_link_wrapper">
                     <div className="footer_link_items">
                         <h2>About Us</h2>
-                        <Link to='aioconn.github.io/react_travel_website//sign_up'>How it works</Link>
-                        <Link to='aioconn.github.io/react_travel_website/'>Testimonials</Link>
-                        <Link to='aioconn.github.io/react_travel_website/'>Careers</Link>
-                        <Link to='aioconn.github.io/react_travel_website/'>Investors</Link>
-                        <Link to='aioconn.github.io/react_travel_website/'>Terms of Service</Link>
+                        <Link to='/sign_up'>How it works</Link>
+                        <Link to='/'>Testimonials</Link>
+                        <Link to='/'>Careers</Link>
+                        <Link to='/'>Investors</Link>
+                        <Link to='/'>Terms of Service</Link>
                     </div>
                 </div>
                 <div className="footer_link_wrapper">
                     <div className="footer_link_items">
                         <h2>Social Media</h2>
-                        <Link to='aioconn.github.io/react_travel_website//'>Instagram</Link>
-                        <Link to='aioconn.github.io/react_travel_website//'>FaceBook</Link>
-                        <Link to='aioconn.github.io/react_travel_website//'>Twitter</Link>
-                        <Link to='aioconn.github.io/react_travel_website//'>Youtube</Link>
+                        <Link to='/'>Instagram</Link>
+                        <Link to='/'>FaceBook</Link>
+                        <Link to='/'>Twitter</Link>
+                        <Link to='/'>Youtube</Link>
                     </div>
                 </div>
             </div>
@@ -53,14 +53,14 @@ const Footer = () => {
                 <small className='website_rights'>XPLOR 2020</small>
                 <div className="social_icons">
                     <Link className='social_icons_link facebook'
-                        to='/aioconn.github.io/react_travel_website/'
+                        to='/'
                         target='_blank'
                         aria-label='Facebook'
                     >
                         <i className="fab fa-facebook-f"> </i>
                     </Link>
                     <Link className='social_icons_link instagram'
-                          to='/aioconn.github.io/react_travel_website/'
+                          to='/'
                           target='_blank'
                           aria-label='Instagram'
                     >

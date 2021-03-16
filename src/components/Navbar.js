@@ -29,7 +29,7 @@ const MyComponent = () => {
         <>
             <nav className='navbar'>
                 <div className='navbar_container'>
-                    <Link to="aioconn.github.io/react_travel_website/" className="navbar_logo" onClick={closeMobileMenu}>
+                    <Link to="/" className="navbar_logo" onClick={closeMobileMenu}>
                         XPLOR  <FaPlane/>
                     </Link>
                     <div className='menu_icon' onClick={handleClick}>
@@ -37,22 +37,22 @@ const MyComponent = () => {
                     </div>
                     <ul className={click ? 'nav_menu active' : 'nav_menu'}>
                         <li className='nav_item'>
-                            <Link to='aioconn.github.io/react_travel_website/' className='nav_links' onClick={closeMobileMenu}>
+                            <Link to='/' className='nav_links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li className='nav_item'>
-                            <Link to='aioconn.github.io/react_travel_website/services' className='nav_links' onClick={closeMobileMenu}>
+                            <Link to='/services' className='nav_links' onClick={closeMobileMenu}>
                                 Services
                             </Link>
                         </li>
                         <li className='nav_item'>
-                            <Link to='aioconn.github.io/react_travel_website/products' className='nav_links' onClick={closeMobileMenu}>
+                            <Link to='/products' className='nav_links' onClick={closeMobileMenu}>
                                 Products
                             </Link>
                         </li>
                         <li className='nav_item'>
-                            <Link to='aioconn.github.io/react_travel_website/sign_up' className='nav_links_mobile' onClick={closeMobileMenu}>
+                            <Link to='/sign_up' className='nav_links_mobile' onClick={closeMobileMenu}>
                                 Sign Up
                             </Link>
                         </li>
