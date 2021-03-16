@@ -12,10 +12,10 @@ function App() {
     <Router>
         <Navbar/>
         <Switch>
-            <Route path='/home' exact component={Home}/>
-            <Route path='/services' component={Services}/>
-            <Route path='/products' component={Products}/>
-            <Route path='/sign_up' component={SignUp}/>
+            <Route path='aioconn.github.io/react_travel_website/' exact component={Home}/>
+            <Route path='aioconn.github.io/react_travel_website/services' component={Services}/>
+            <Route path='aioconn.github.io/react_travel_website/products' component={Products}/>
+            <Route path='aioconn.github.io/react_travel_website/sign_up' component={SignUp}/>
 
         </Switch>
     </Router>
