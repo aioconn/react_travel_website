@@ -9,7 +9,7 @@ import SignUp from "./components/pages/SignUp";
 function App() {
   return (
     <>
-    <HashRouter>
+    <HashRouter basename='/'>
         <Navbar/>
         <Switch>
             <Route path='/' exact component={Home}/>
