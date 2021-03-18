@@ -5,7 +5,7 @@ import '../../App.css'
 const Services = () => {
     return(
         <div style={{
-            backgroundImage: "url(/images/img-8.jpg)",
+            backgroundImage: "url(./images/img-8.jpg)",
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'

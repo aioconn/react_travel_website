@@ -4,7 +4,7 @@ import '../../App.css'
 const SignUp = () => {
     return(
         <div style={{
-            backgroundImage: "url(/images/img-1.jpg)",
+            backgroundImage: "url(./images/img-1.jpg)",
             backgroundPosition: 'center',
             backgroundSize: '',
             backgroundRepeat: 'no-repeat'
