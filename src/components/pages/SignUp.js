@@ -6,7 +6,7 @@ const SignUp = () => {
         <div style={{
             backgroundImage: "url(./images/img-1.jpg)",
             backgroundPosition: 'center',
-            backgroundSize: '',
+            backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
         }}>
             <h1 className='sign_up'>SIGN UP</h1>
